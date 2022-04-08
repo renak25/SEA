@@ -9,11 +9,14 @@
         <entry key="app/src/main/res/layout/aboutus.xml" value="0.2887513902452257" />
         <entry key="app/src/main/res/layout/aboutuss.xml" value="0.25729166666666664" />
         <entry key="app/src/main/res/layout/burnthebook.xml" value="0.25729166666666664" />
-        <entry key="app/src/main/res/layout/contactus.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/contactus.xml" value="0.1" />
         <entry key="app/src/main/res/layout/firstpage.xml" value="0.26490936279296873" />
         <entry key="app/src/main/res/layout/main.xml" value="0.24951782226562497" />
+        <entry key="app/src/main/res/layout/mainbuttons.xml" value="0.14479166666666668" />
         <entry key="app/src/main/res/layout/resources.xml" value="0.25729166666666664" />
         <entry key="app/src/main/res/layout/resources1.xml" value="0.2341485507246377" />
+        <entry key="app/src/main/res/layout/resourcesweb.xml" value="0.21120136810602821" />
+        <entry key="app/src/main/res/layout/resourcesweb1.xml" value="0.21120136810602821" />
         <entry key="app/src/main/res/layout/step1.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/survery2.xml" value="0.25729166666666664" />
         <entry key="app/src/main/res/layout/surveryend.xml" value="0.25729166666666664" />
@@ -22,6 +25,7 @@
         <entry key="app/src/main/res/layout/survey2.xml" value="0.25729166666666664" />
         <entry key="app/src/main/res/layout/survey3.xml" value="0.25729166666666664" />
         <entry key="app/src/main/res/layout/survey4.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/surveyend.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/writing.xml" value="0.23697916666666666" />
       </map>
     </option>

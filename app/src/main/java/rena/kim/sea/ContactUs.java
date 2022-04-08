@@ -15,12 +15,12 @@ public class ContactUs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.contactus);
-        Button btn = findViewById(R.id.about);
+        Button btn = findViewById(R.id.mainpage);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(rena.kim.sea.ContactUs.this, AboutUs.class);
+                Intent it = new Intent(rena.kim.sea.ContactUs.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }

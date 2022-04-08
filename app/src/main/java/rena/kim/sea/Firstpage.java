@@ -16,11 +16,21 @@ public class Firstpage extends AppCompatActivity {
 
         setContentView(R.layout.firstpage);
         Button btn = findViewById(R.id.nextButton);
+        Button btnMain = findViewById(R.id.mainpage);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(Firstpage.this, Survey.class);
+                startActivity(it);
+                finish();
+            }
+        });
+
+        btnMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Firstpage.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }

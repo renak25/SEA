@@ -25,6 +25,17 @@ public class Survey1 extends AppCompatActivity {
             }
         });
 
+        Button btnMain = findViewById(R.id.mainpage);
+
+        btnMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Survey1.this, MainButtons.class);
+                startActivity(it);
+                finish();
+            }
+        });
+
     }
 }
 

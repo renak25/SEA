@@ -84,6 +84,19 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MainButtons">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ResourcesWeb">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>

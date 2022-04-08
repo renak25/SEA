@@ -16,10 +16,21 @@ public class SurveyEnd extends AppCompatActivity {
         setContentView(R.layout.surveyend);
         Button btn = findViewById(R.id.button);
 
+        Button btnMain = findViewById(R.id.mainpage);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(SurveyEnd.this, Resources.class);
+                startActivity(it);
+                finish();
+            }
+        });
+
+        btnMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(SurveyEnd.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }

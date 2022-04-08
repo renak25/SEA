@@ -25,6 +25,17 @@ public class Resources extends AppCompatActivity {
             }
         });
 
+        Button btnMain = findViewById(R.id.mainpage);
+
+        btnMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Resources.this, MainButtons.class);
+                startActivity(it);
+                finish();
+            }
+        });
+
     }
 }
 

@@ -14,31 +14,27 @@ public class Resources1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.resources1);
-        Button btnContact = findViewById(R.id.contactus);
+        Button btnMain = findViewById(R.id.mainpage);
+        Button btnWeb = findViewById(R.id.web);
 
-        Button btnAbout = findViewById(R.id.aboutus);
-
-        btnContact.setOnClickListener(new View.OnClickListener() {
+        btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Resources1.this, ContactUs.class);
+                Intent it = new Intent(Resources1.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }
         });
 
-        btnAbout.setOnClickListener(new View.OnClickListener() {
+        btnWeb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Resources1.this, AboutUs.class);
+                Intent it = new Intent(Resources1.this, ResourcesWeb.class);
                 startActivity(it);
-                finish();
+                //finish();
             }
         });
 
     }
-
-
 }
-
 
