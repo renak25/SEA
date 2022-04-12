@@ -1,21 +1,31 @@
 package rena.kim.sea;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Resources1 extends AppCompatActivity {
+
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.resources1);
         Button btnMain = findViewById(R.id.mainpage);
-        Button btnWeb = findViewById(R.id.web);
+        TextView tv  = findViewById(R.id.toWeb);
+        Button btnvid = findViewById(R.id.meditate);
 
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,7 +36,7 @@ public class Resources1 extends AppCompatActivity {
             }
         });
 
-        btnWeb.setOnClickListener(new View.OnClickListener() {
+        tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(Resources1.this, ResourcesWeb.class);
@@ -35,6 +45,22 @@ public class Resources1 extends AppCompatActivity {
             }
         });
 
+        btnvid.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Resources1.this, VideoList.class);
+                startActivity(it);
+            }
+        });
+
+
+
     }
+
+
 }
+
+
+
+
 
