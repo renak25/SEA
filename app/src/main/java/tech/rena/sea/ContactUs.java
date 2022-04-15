@@ -1,4 +1,4 @@
-package rena.kim.sea;
+package tech.rena.sea;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ public class ContactUs extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(rena.kim.sea.ContactUs.this, MainButtons.class);
+                Intent it = new Intent(tech.rena.sea.ContactUs.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }

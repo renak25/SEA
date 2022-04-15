@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rena.kim.sea">
+    package="tech.rena.sea">
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,90 +12,90 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.SEA" >
 
-        <activity android:name=".Main">
+        <activity android:name="tech.rena.tech.rena.sea.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".VideoList">
+        <activity android:name="tech.rena.tech.rena.sea.VideoList">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Firstpage">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".Survey">
+        <activity android:name="tech.rena.tech.rena.sea.Firstpage">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Survey1">
+        <activity android:name="tech.rena.tech.rena.sea.Survey">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Survey2">
+        <activity android:name="tech.rena.tech.rena.sea.Survey1">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Survey3">
+        <activity android:name="tech.rena.tech.rena.sea.Survey2">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Survey4">
+        <activity android:name="tech.rena.tech.rena.sea.Survey3">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".SurveyEnd">
+        <activity android:name="tech.rena.tech.rena.sea.Survey4">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Resources">
+        <activity android:name="tech.rena.tech.rena.sea.SurveyEnd">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".Resources1">
+        <activity android:name="tech.rena.tech.rena.sea.Resources">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".ContactUs">
+        <activity android:name="tech.rena.tech.rena.sea.Resources1">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".AboutUs">
+        <activity android:name="tech.rena.tech.rena.sea.ContactUs">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainButtons">
+        <activity android:name="tech.rena.tech.rena.sea.AboutUs">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".ResourcesWeb">
+        <activity android:name="tech.rena.tech.rena.sea.MainButtons">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="tech.rena.tech.rena.sea.ResourcesWeb">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>

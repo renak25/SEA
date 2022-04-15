@@ -1,4 +1,4 @@
-package rena.kim.sea;
+package tech.rena.sea;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,18 +8,18 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Survey extends AppCompatActivity {
+public class Resources extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.survey);
-        Button btn = findViewById(R.id.nextbutton);
+        setContentView(R.layout.resources);
+        Button btn = findViewById(R.id.buttonR);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Survey.this, Survey1.class);
+                Intent it = new Intent(Resources.this, Resources1.class);
                 startActivity(it);
                 finish();
             }
@@ -30,7 +30,7 @@ public class Survey extends AppCompatActivity {
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Survey.this, MainButtons.class);
+                Intent it = new Intent(Resources.this, MainButtons.class);
                 startActivity(it);
                 finish();
             }
@@ -38,3 +38,5 @@ public class Survey extends AppCompatActivity {
 
     }
 }
+
+

@@ -1,4 +1,4 @@
-package rena.kim.sea;
+package tech.rena.sea;
 
 import android.os.Bundle;
 import android.util.Log;

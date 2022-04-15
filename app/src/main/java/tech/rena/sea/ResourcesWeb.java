@@ -1,4 +1,4 @@
-package rena.kim.sea;
+package tech.rena.sea;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
